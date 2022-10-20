@@ -9,7 +9,7 @@
     "clean": "rimraf build/",
     "build": " npx tsc",
     "start": "npm run build && nodemon build/index.js",
-    "format": "prettier --config .prettierrc \"build/**/*.js\" --write ",
+    "format": "prettier --config .prettierrc \"src/**/*.ts\" --write ",
     "lint": "eslint . --ext .ts"
   },
   "author": "Baraah Abdullah",
